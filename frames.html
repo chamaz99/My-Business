@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Frame Sizes & Prices | Chamaz Creation</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Page-specific CSS -->
+   
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-palette brand-blue"></i>
+                <span class="brand-blue">Chamaz</span>
+                <span class="brand-orange">Creation</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="frames.html">Frame Sizes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Contact</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero d-flex align-items-center" style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1581600140687-7281242f36cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h1 class="display-4 fw-bold mb-3">Photo Frame Sizes & Prices</h1>
+                    <p class="lead mb-4">Find the perfect frame for your precious memories. Choose from our standard sizes or request a custom frame.</p>
+                    <a href="#frame-sizes" class="btn btn-primary btn-lg me-3">View All Sizes</a>
+                    <a href="#custom-frame" class="btn btn-outline-primary btn-lg">Custom Frame</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Frame Sizes Section -->
+    <section id="frame-sizes" class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Standard Frame Sizes</h2>
+                    <p class="text-muted lead">All our frames include UV-protective glass, acid-free backing, and ready-to-hang hardware.</p>
+                </div>
+            </div>
+            
+            <div class="row g-4 mb-5">
+                <!-- Small Frame -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card frame-card h-100 border-0 shadow-sm position-relative">
+                        <span class="popular-badge">MOST POPULAR</span>
+                        <div class="card-header bg-light-blue text-center py-4">
+                            <div class="size-visual" style="width: 80px; height: 100px;">
+                                <span>8" × 10"</span>
+                            </div>
+                            <h4 class="mt-4 mb-0">Small</h4>
+                            <p class="text-muted mb-0">Perfect for desk photos</p>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title fw-bold brand-blue mb-3">$85.00</h3>
+                            <ul class="frame-feature-list">
+                                <li>8 × 10 inches (20 × 25 cm)</li>
+                                <li>Solid wood frame</li>
+                                <li>UV-protective glass</li>
+                                <li>Acid-free backing</li>
+                                <li>Ready to hang</li>
+                            </ul>
+                            <div class="mt-4">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary add-to-cart-frame" data-frame-size="Small (8x10)" data-price="85.00">
+                                        <i class="fas fa-cart-plus me-2"></i>Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Medium Frame -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card frame-card h-100 border-0 shadow-sm">
+                        <div class="card-header bg-light text-center py-4">
+                            <div class="size-visual" style="width: 96px; height: 128px;">
+                                <span>12" × 16"</span>
+                            </div>
+                            <h4 class="mt-4 mb-0">Medium</h4>
+                            <p class="text-muted mb-0">Great for portraits</p>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title fw-bold brand-blue mb-3">$110.00</h3>
+                            <ul class="frame-feature-list">
+                                <li>12 × 16 inches (30 × 40 cm)</li>
+                                <li>Solid wood frame</li>
+                                <li>UV-protective glass</li>
+                                <li>Acid-free backing</li>
+                                <li>Ready to hang</li>
+                            </ul>
+                            <div class="mt-4">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary add-to-cart-frame" data-frame-size="Medium (12x16)" data-price="110.00">
+                                        <i class="fas fa-cart-plus me-2"></i>Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Large Frame -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card frame-card h-100 border-0 shadow-sm">
+                        <div class="card-header bg-light text-center py-4">
+                            <div class="size-visual" style="width: 128px; height: 160px;">
+                                <span>16" × 20"</span>
+                            </div>
+                            <h4 class="mt-4 mb-0">Large</h4>
+                            <p class="text-muted mb-0">Ideal for family photos</p>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title fw-bold brand-blue mb-3">$130.00</h3>
+                            <ul class="frame-feature-list">
+                                <li>16 × 20 inches (40 × 50 cm)</li>
+                                <li>Solid wood frame</li>
+                                <li>UV-protective glass</li>
+                                <li>Acid-free backing</li>
+                                <li>Ready to hang</li>
+                            </ul>
+                            <div class="mt-4">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary add-to-cart-frame" data-frame-size="Large (16x20)" data-price="130.00">
+                                        <i class="fas fa-cart-plus me-2"></i>Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Extra Large Frame -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card frame-card h-100 border-0 shadow-sm">
+                        <div class="card-header bg-light text-center py-4">
+                            <div class="size-visual" style="width: 192px; height: 288px;">
+                                <span>24" × 36"</span>
+                            </div>
+                            <h4 class="mt-4 mb-0">Extra Large</h4>
+                            <p class="text-muted mb-0">For statement pieces</p>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title fw-bold brand-blue mb-3">$150.00</h3>
+                            <ul class="frame-feature-list">
+                                <li>24 × 36 inches (60 × 90 cm)</li>
+                                <li>Solid wood frame</li>
+                                <li>UV-protective glass</li>
+                                <li>Acid-free backing</li>
+                                <li>Ready to hang</li>
+                            </ul>
+                            <div class="mt-4">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary add-to-cart-frame" data-frame-size="Extra Large (24x36)" data-price="150.00">
+                                        <i class="fas fa-cart-plus me-2"></i>Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Size Comparison Table -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="size-comparison">
+                        <h3 class="mb-4 brand-blue">Frame Size Comparison</h3>
+                        <div class="table-responsive">
+                            <table class="size-comparison-table">
+                                <thead>
+                                    <tr>
+                                        <th>Size Name</th>
+                                        <th>Dimensions (inches)</th>
+                                        <th>Dimensions (cm)</th>
+                                        
+                                        <th>Price</th>
+                                        <th>Delivery Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Small</strong></td>
+                                        <td>8 × 10</td>
+                                        <td>20 × 25</td>
+                                       
+                                        <td class="fw-bold brand-blue">$85.00</td>
+                                        <td>3-5 business days</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Medium</strong></td>
+                                        <td>12 × 16</td>
+                                        <td>30 × 40</td>
+                                       
+                                        <td class="fw-bold brand-blue">$110.00</td>
+                                        <td>3-5 business days</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Large</strong></td>
+                                        <td>16 × 20</td>
+                                        <td>40 × 50</td>
+                                        
+                                        <td class="fw-bold brand-blue">$130.00</td>
+                                        <td>5-7 business days</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Extra Large</strong></td>
+                                        <td>24 × 36</td>
+                                        <td>60 × 90</td>
+                                        <td class="fw-bold brand-blue">$150.00</td>
+                                        <td>7-10 business days</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom Frame Section -->
+    <section id="custom-frame" class="py-5 bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Custom Frame Orders</h2>
+                    <p class="text-muted lead">Need a specific size? We create custom frames to match your exact requirements.</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="custom-size-form">
+                        <h3 class="mb-4 brand-blue">Create Your Custom Frame</h3>
+                        
+                        <!-- Frame Dimensions -->
+                        <div class="mb-4">
+                            <label class="form-label fw-bold">Frame Dimensions (inches)</label>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="number" class="form-control" id="custom-width" placeholder="Width" min="4" max="60" value="10">
+                                </div>
+                                <div class="col-auto d-flex align-items-center">
+                                    <span class="fw-bold">×</span>
+                                </div>
+                                <div class="col">
+                                    <input type="number" class="form-control" id="custom-height" placeholder="Height" min="4" max="60" value="12">
+                                </div>
+                            </div>
+                            <div class="form-text">Minimum: 4" × 4", Maximum: 60" × 60"</div>
+                        </div>
+                        
+                        <!-- Frame Material -->
+                        <div class="mb-4">
+                            <label class="form-label fw-bold">Frame Material</label>
+                            <div class="row g-2">
+                                <div class="col-6">
+                                    <div class="frame-material-option active" data-material="wood">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="frameMaterial" id="materialWood" checked>
+                                            <label class="form-check-label fw-bold" for="materialWood">
+                                                Solid Wood
+                                            </label>
+                                        </div>
+                                        <p class="mb-0 text-muted small">Classic, durable finish</p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="frame-material-option" data-material="metal">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="frameMaterial" id="materialMetal">
+                                            <label class="form-check-label fw-bold" for="materialMetal">
+                                                Metal
+                                            </label>
+                                        </div>
+                                        <p class="mb-0 text-muted small">Modern, sleek look</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Frame Color -->
+                        <div class="mb-4">
+                            <label class="form-label fw-bold">Frame Color</label>
+                            <select class="form-select" id="frame-color">
+                                <option value="walnut">Walnut Brown</option>
+                                <option value="oak">Natural Oak</option>
+                                <option value="black">Matte Black</option>
+                                <option value="white">Classic White</option>
+                                <option value="silver">Brushed Silver</option>
+                                <option value="gold">Antique Gold</option>
+                            </select>
+                        </div>
+                        
+                        <!-- Glass Type -->
+                        <div class="mb-4">
+                            <label class="form-label fw-bold">Glass Type</label>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="glassType" id="glassStandard" checked>
+                                <label class="form-check-label" for="glassStandard">
+                                    <span class="fw-bold">Standard Glass</span> - Included in base price
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="glassType" id="glassUV">
+                                <label class="form-check-label" for="glassUV">
+                                    <span class="fw-bold">UV-Protective Glass</span> - +$15.00 (Recommended for valuable artwork)
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <!-- Quantity -->
+                        <div class="mb-4">
+                            <label class="form-label fw-bold">Quantity</label>
+                            <div class="quantity-control">
+                                <button class="quantity-btn" id="decrease-qty">-</button>
+                                <input type="number" class="quantity-input" id="frame-quantity" value="1" min="1" max="10">
+                                <button class="quantity-btn" id="increase-qty">+</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Price Calculation -->
+                        <div class="price-breakdown">
+                            <h5 class="mb-3">Price Breakdown</h5>
+                            <div class="price-item">
+                                <span>Base price (custom size)</span>
+                                <span id="base-price">$120.00</span>
+                            </div>
+                            <div class="price-item">
+                                <span>Material (Solid Wood)</span>
+                                <span id="material-price">$0.00</span>
+                            </div>
+                            <div class="price-item">
+                                <span>UV Glass</span>
+                                <span id="glass-price">$0.00</span>
+                            </div>
+                            <div class="price-item">
+                                <span>Quantity (1)</span>
+                                <span id="quantity-price">$120.00</span>
+                            </div>
+                            <hr>
+                            <div class="price-item">
+                                <span class="fw-bold">Total</span>
+                                <span class="price-total" id="total-price">$120.00</span>
+                            </div>
+                        </div>
+                        
+                        <div class="d-grid mt-4">
+                            <button class="btn btn-primary btn-lg" id="add-custom-frame">
+                                <i class="fas fa-cart-plus me-2"></i>Add Custom Frame to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="card border-0 h-100">
+                        <div class="card-body">
+                            <h3 class="card-title mb-4 brand-blue">Custom Frame Details</h3>
+                            <div class="mb-4">
+                                <h5>How Custom Pricing Works</h5>
+                                <p>Custom frames are priced based on the following factors:</p>
+                                <ul class="frame-feature-list">
+                                    <li><strong>Base Price:</strong> $120.00 for the first 100 square inches</li>
+                                    <li><strong>Additional Area:</strong> $1.50 per additional square inch</li>
+                                    <li><strong>Material Upgrade:</strong> Metal frames add $20.00</li>
+                                    <li><strong>UV Glass:</strong> Adds $15.00 to protect from sunlight</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <h5>Turnaround Time</h5>
+                                <p>Custom frames typically take <strong>7-14 business days</strong> to produce, depending on complexity and current order volume.</p>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <h5>What's Included</h5>
+                                <ul class="frame-feature-list">
+                                    <li>Handcrafted frame in your chosen material and color</li>
+                                    <li>High-quality glass (standard or UV-protective)</li>
+                                    <li>Acid-free mat board (optional, additional cost)</li>
+                                    <li>Acid-free backing to protect your photo</li>
+                                    <li>Ready-to-hang hardware installed</li>
+                                    <li>Protective packaging for shipping</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="alert alert-info">
+                                <h5><i class="fas fa-info-circle me-2"></i>Need Help?</h5>
+                                <p class="mb-0">Contact our framing specialists at <strong>(555) 123-4567</strong> or <strong>frames@chamazcreation.com</strong> for assistance with custom orders.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Frame Options -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Additional Frame Options</h2>
+                    <p class="text-muted lead">Enhance your frame with these premium add-ons.</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Mat Board Option -->
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="mb-3">
+                                <div class="rounded-circle bg-light-blue d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                                    <i class="fas fa-border-all fa-2x brand-blue"></i>
+                                </div>
+                            </div>
+                            <h4 class="card-title mb-3">Mat Board</h4>
+                            <p class="card-text text-muted">Add a professional mat board to enhance your artwork or photo. Available in various colors and sizes.</p>
+                            <div class="mt-3">
+                                <h5 class="brand-blue">From $25.00</h5>
+                                <p class="small text-muted">Price depends on size and material</p>
+                            </div>
+                            <button class="btn btn-outline-primary mt-3" data-bs-toggle="modal" data-bs-target="#matBoardModal">
+                                <i class="fas fa-plus-circle me-2"></i>Add Mat Board
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mounting Option -->
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="mb-3">
+                                <div class="rounded-circle bg-light-blue d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                                    <i class="fas fa-thumbtack fa-2x brand-blue"></i>
+                                </div>
+                            </div>
+                            <h4 class="card-title mb-3">Professional Mounting</h4>
+                            <p class="card-text text-muted">Our experts will professionally mount your photo or artwork to ensure it stays perfectly in place.</p>
+                            <div class="mt-3">
+                                <h5 class="brand-blue">$35.00</h5>
+                                <p class="small text-muted">Per frame</p>
+                            </div>
+                            <button class="btn btn-outline-primary mt-3" data-bs-toggle="modal" data-bs-target="#mountingModal">
+                                <i class="fas fa-plus-circle me-2"></i>Add Mounting
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Delivery Option -->
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="mb-3">
+                                <div class="rounded-circle bg-light-blue d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                                    <i class="fas fa-shipping-fast fa-2x brand-blue"></i>
+                                </div>
+                            </div>
+                            <h4 class="card-title mb-3">Express Delivery</h4>
+                            <p class="card-text text-muted">Get your frame faster with our express delivery service. Available for all frame sizes.</p>
+                            <div class="mt-3">
+                                <h5 class="brand-blue">$25.00</h5>
+                                <p class="small text-muted">2-3 business days</p>
+                            </div>
+                            <button class="btn btn-outline-primary mt-3" data-bs-toggle="modal" data-bs-target="#deliveryModal">
+                                <i class="fas fa-plus-circle me-2"></i>Add Express Delivery
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h4 class="fw-bold mb-3">
+                        <span class="brand-blue">Chamaz</span>
+                        <span class="brand-orange">Creation</span>
+                    </h4>
+                    <p class="text-light">Professional graphic design and custom photo framing services since 2015.</p>
+                </div>
+                
+                <div class="col-lg-4">
+                    <h5 class="mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-decoration-none text-light">Home</a></li>
+                        <li class="mb-2"><a href="index.html#about" class="text-decoration-none text-light">About Us</a></li>
+                        <li class="mb-2"><a href="frames.html" class="text-decoration-none text-light">Frame Sizes</a></li>
+                        <li class="mb-2"><a href="index.html#contact" class="text-decoration-none text-light">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-4">
+                    <h5 class="mb-3">Need Help Choosing?</h5>
+                    <p class="text-light mb-3">Our framing experts are here to help you select the perfect frame for your needs.</p>
+                    <p class="mb-2"><i class="fas fa-phone brand-orange me-2"></i>(555) 123-4567</p>
+                    <p class="mb-0"><i class="fas fa-envelope brand-orange me-2"></i>frames@chamazcreation.com</p>
+                </div>
+            </div>
+            
+            <hr class="my-4 text-light">
+            
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2023 Chamaz Creation. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals for Add-ons -->
+    <div class="modal fade" id="matBoardModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add Mat Board</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Select mat board options:</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="radio" name="matBoardType" id="standardMat" checked>
+                                <label class="form-check-label" for="standardMat">
+                                    <strong>Standard Mat</strong> - $25.00<br>
+                                    <small class="text-muted">Acid-free, white core</small>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="radio" name="matBoardType" id="premiumMat">
+                                <label class="form-check-label" for="premiumMat">
+                                    <strong>Premium Conservation Mat</strong> - $45.00<br>
+                                    <small class="text-muted">100% rag, museum-quality</small>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Mat Color</label>
+                        <select class="form-select">
+                            <option>White</option>
+                            <option>Off-White</option>
+                            <option>Black</option>
+                            <option>Grey</option>
+                            <option>Beige</option>
+                            <option>Custom (additional $10)</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Mat Width</label>
+                        <select class="form-select">
+                            <option>2 inches (standard)</option>
+                            <option>3 inches</option>
+                            <option>4 inches</option>
+                            <option>Custom width (additional $5)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="addMatToCart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="mountingModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add Professional Mounting</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Our professional mounting service ensures your photo or artwork is perfectly positioned and secured within the frame.</p>
+                    <div class="alert alert-info">
+                        <i class="fas fa-info-circle me-2"></i>
+                        <small>This service is recommended for valuable artwork, canvas prints, or photos that you want to preserve for many years.</small>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Mounting Type</label>
+                        <select class="form-select">
+                            <option>Standard Mounting (included with frame)</option>
+                            <option>Professional Hinge Mounting - $35.00</option>
+                            <option>Dry Mounting (for posters) - $40.00</option>
+                            <option>Museum Mounting (archival) - $60.00</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="addMountingToCart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="deliveryModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add Express Delivery</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Get your frame delivered in 2-3 business days instead of the standard 5-10 business days.</p>
+                    <div class="alert alert-warning">
+                        <i class="fas fa-exclamation-triangle me-2"></i>
+                        <small>Express delivery is not available for custom frame orders or orders placed on weekends.</small>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="expressDelivery">
+                        <label class="form-check-label" for="expressDelivery">
+                            <strong>Add Express Delivery - $25.00</strong><br>
+                            <small class="text-muted">2-3 business day delivery</small>
+                        </label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="addDeliveryToCart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+    <!-- Page-specific JS -->
+    <script>
+        // Page-specific JavaScript for frame sizes page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add to cart for standard frames
+            const addToCartButtons = document.querySelectorAll('.add-to-cart-frame');
+            addToCartButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const frameSize = this.getAttribute('data-frame-size');
+                    const price = this.getAttribute('data-price');
+                    
+                    // Update cart count
+                    const cartCount = document.querySelector('.cart-count');
+                    let currentCount = parseInt(cartCount.textContent);
+                    cartCount.textContent = currentCount + 1;
+                    
+                    // Show notification
+                    showNotification(`Added ${frameSize} frame to cart for $${price}`, 'success');
+                    
+                    // Update button state
+                    const originalText = this.innerHTML;
+                    this.innerHTML = '<i class="fas fa-check me-2"></i>Added!';
+                    this.classList.add('btn-success');
+                    this.classList.remove('btn-primary');
+                    
+                    // Reset button after 2 seconds
+                    setTimeout(() => {
+                        this.innerHTML = originalText;
+                        this.classList.remove('btn-success');
+                        this.classList.add('btn-primary');
+                    }, 2000);
+                });
+            });
+            
+            // Material selection
+            const materialOptions = document.querySelectorAll('.frame-material-option');
+            materialOptions.forEach(option => {
+                option.addEventListener('click', function() {
+                    materialOptions.forEach(opt => opt.classList.remove('active'));
+                    this.classList.add('active');
+                    const radioInput = this.querySelector('input[type="radio"]');
+                    if (radioInput) {
+                        radioInput.checked = true;
+                    }
+                    calculateCustomFramePrice();
+                });
+            });
+            
+            // Quantity controls
+            const decreaseBtn = document.getElementById('decrease-qty');
+            const increaseBtn = document.getElementById('increase-qty');
+            const quantityInput = document.getElementById('frame-quantity');
+            
+            if (decreaseBtn && increaseBtn && quantityInput) {
+                decreaseBtn.addEventListener('click', function() {
+                    let currentValue = parseInt(quantityInput.value);
+                    if (currentValue > 1) {
+                        quantityInput.value = currentValue - 1;
+                        calculateCustomFramePrice();
+                    }
+                });
+                
+                increaseBtn.addEventListener('click', function() {
+                    let currentValue = parseInt(quantityInput.value);
+                    if (currentValue < 10) {
+                        quantityInput.value = currentValue + 1;
+                        calculateCustomFramePrice();
+                    }
+                });
+                
+                quantityInput.addEventListener('change', function() {
+                    let value = parseInt(this.value);
+                    if (isNaN(value) || value < 1) this.value = 1;
+                    if (value > 10) this.value = 10;
+                    calculateCustomFramePrice();
+                });
+            }
+            
+            // Custom frame price calculation
+            const customWidth = document.getElementById('custom-width');
+            const customHeight = document.getElementById('custom-height');
+            const glassOptions = document.querySelectorAll('input[name="glassType"]');
+            
+            // Add event listeners for price calculation
+            if (customWidth && customHeight) {
+                customWidth.addEventListener('input', calculateCustomFramePrice);
+                customHeight.addEventListener('input', calculateCustomFramePrice);
+            }
+            
+            glassOptions.forEach(option => {
+                option.addEventListener('change', calculateCustomFramePrice);
+            });
+            
+            // Initial price calculation
+            calculateCustomFramePrice();
+            
+            // Add custom frame to cart
+            const addCustomFrameBtn = document.getElementById('add-custom-frame');
+            if (addCustomFrameBtn) {
+                addCustomFrameBtn.addEventListener('click', function() {
+                    const width = customWidth.value;
+                    const height = customHeight.value;
+                    const material = document.querySelector('input[name="frameMaterial"]:checked').value;
+                    const color = document.getElementById('frame-color').value;
+                    const glassType = document.querySelector('input[name="glassType"]:checked').id === 'glassUV' ? 'UV-Protective' : 'Standard';
+                    const quantity = quantityInput.value;
+                    const totalPrice = document.getElementById('total-price').textContent;
+                    
+                    // Update cart count
+                    const cartCount = document.querySelector('.cart-count');
+                    let currentCount = parseInt(cartCount.textContent);
+                    cartCount.textContent = currentCount + 1;
+                    
+                    // Show notification
+                    showNotification(`Added custom frame (${width}" × ${height}") to cart for ${totalPrice}`, 'success');
+                    
+                    // Update button state
+                    const originalText = this.innerHTML;
+                    this.innerHTML = '<i class="fas fa-check me-2"></i>Added!';
+                    this.classList.add('btn-success');
+                    this.classList.remove('btn-primary');
+                    
+                    // Reset button after 2 seconds
+                    setTimeout(() => {
+                        this.innerHTML = originalText;
+                        this.classList.remove('btn-success');
+                        this.classList.add('btn-primary');
+                    }, 2000);
+                });
+            }
+            
+            // Modal add-ons
+            document.getElementById('addMatToCart')?.addEventListener('click', function() {
+                const cartCount = document.querySelector('.cart-count');
+                let currentCount = parseInt(cartCount.textContent);
+                cartCount.textContent = currentCount + 1;
+                showNotification('Added mat board to cart', 'success');
+            });
+            
+            document.getElementById('addMountingToCart')?.addEventListener('click', function() {
+                const cartCount = document.querySelector('.cart-count');
+                let currentCount = parseInt(cartCount.textContent);
+                cartCount.textContent = currentCount + 1;
+                showNotification('Added professional mounting to cart', 'success');
+            });
+            
+            document.getElementById('addDeliveryToCart')?.addEventListener('click', function() {
+                const cartCount = document.querySelector('.cart-count');
+                let currentCount = parseInt(cartCount.textContent);
+                cartCount.textContent = currentCount + 1;
+                showNotification('Added express delivery to cart', 'success');
+            });
+        });
+        
+        function calculateCustomFramePrice() {
+            const width = parseFloat(document.getElementById('custom-width').value) || 10;
+            const height = parseFloat(document.getElementById('custom-height').value) || 12;
+            const material = document.querySelector('input[name="frameMaterial"]:checked').value;
+            const glassType = document.querySelector('input[name="glassType"]:checked').id;
+            const quantity = parseInt(document.getElementById('frame-quantity').value) || 1;
+            
+            // Calculate area in square inches
+            const area = width * height;
+            
+            // Base price calculation
+            let basePrice = 120.00; // Base price for up to 100 sq inches
+            if (area > 100) {
+                const additionalArea = area - 100;
+                basePrice += additionalArea * 1.50;
+            }
+            
+            // Material cost
+            let materialCost = 0;
+            if (material === 'metal') {
+                materialCost = 20.00;
+            }
+            
+            // Glass cost
+            let glassCost = 0;
+            if (glassType === 'glassUV') {
+                glassCost = 15.00;
+            }
+            
+            // Calculate subtotal before quantity
+            const subtotal = basePrice + materialCost + glassCost;
+            
+            // Calculate total with quantity
+            const total = subtotal * quantity;
+            
+            // Update price breakdown
+            document.getElementById('base-price').textContent = `$${basePrice.toFixed(2)}`;
+            document.getElementById('material-price').textContent = materialCost > 0 ? `$${materialCost.toFixed(2)}` : 'Included';
+            document.getElementById('glass-price').textContent = glassCost > 0 ? `$${glassCost.toFixed(2)}` : 'Included';
+            document.getElementById('quantity-price').textContent = `$${subtotal.toFixed(2)} × ${quantity}`;
+            document.getElementById('total-price').textContent = `$${total.toFixed(2)}`;
+        }
+        
+        function showNotification(message, type) {
+            // Create notification element
+            const notification = document.createElement('div');
+            notification.className = `alert alert-${type === 'success' ? 'success' : 'danger'} position-fixed`;
+            notification.style.cssText = 'top: 20px; right: 20px; z-index: 9999; min-width: 300px;';
+            notification.innerHTML = `
+                ${message}
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            `;
+            
+            // Add to document
+            document.body.appendChild(notification);
+            
+            // Auto remove after 5 seconds
+            setTimeout(() => {
+                if (notification.parentNode) {
+                    notification.parentNode.removeChild(notification);
+                }
+            }, 5000);
+        }
+    </script>
+</body>
+</html>
